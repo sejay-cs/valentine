@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main img {
+    display: none;
+    max-width: 90%; 
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.main h1 {
+    color: red;
+    font-family: cursive;
+}
+#yesMessage {
+    display: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    animation: fadeIn 1s ease-in-out; 
+    text-align: center;
+    
+}
+.buttons  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttons button {
+    padding: 20px 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 50px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease-in-out; 
+    border: 3px solid white; 
+    font-family: cursive;
+}
+
+.yes {
+    background-color: green;
+    color: white;
+}
+
+.no {
+    background-color: red;
+    color: white;
+}
+
+.buttons button:hover {
+    transform: scale(1.1); 
+}
